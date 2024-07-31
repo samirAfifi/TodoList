@@ -1,0 +1,23 @@
+tbody i {
+    background-color:rgb(86, 175, 219);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+#del {
+    background-color:rgb(255, 60, 60);
+   
+}
+#clear{
+    background-color: cadetblue;
+    margin-left: 25px;
+}
+table{
+    width: 94%;
+    margin: auto;
+    margin-top: 20px;  
+    
+}
+.tabel_h{
+    min-height: 50vh;
+}

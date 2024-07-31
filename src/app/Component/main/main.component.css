@@ -1,0 +1,22 @@
+.main{
+    background-color: rgb(86, 175, 219);
+    background-position: center center;
+    min-height: 100vh;
+}
+.contant{
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.date{
+    background-color: #fff;
+    margin-top: 8rem;
+    border-radius: 5px;
+}
+.date h1{
+    font-size: 50px;
+    font-weight: 900;
+}

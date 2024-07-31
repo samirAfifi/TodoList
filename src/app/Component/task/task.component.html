@@ -1,0 +1,31 @@
+<div class="tabel_h">
+  <table  class="table ">
+    <thead *ngIf="taskObj.length>0;else eles">
+     <tr>
+     <th >#</th>
+     <th >Your Name</th>
+     <th >Action</th>
+   </tr>
+    </thead>
+    <tbody class="table-group-divider">
+     <tr *ngFor="let task of taskObj; let i=index">
+       <td>{{ i }}</td>
+         <td>{{ task.val }}</td>
+         <td><i (click)="edit(i)" class="fa-solid fa-pen-to-square me-4"></i> 
+           <i id="del" (click)="del(i)" class=" fa-solid fa-trash-can"></i> 
+         </td>
+       </tr>
+   </tbody>
+</table>
+
+</div>
+
+
+  <ng-template  #eles>
+    <div class=" mt-5 alert  text-center" role="alert">
+        <img class="w-25" src="assets/imgg/3598806.webp" alt="export">
+        <p class="ms-4">Please Add New User</p>
+        </div>
+</ng-template>
+
+

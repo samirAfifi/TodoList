@@ -1,0 +1,19 @@
+<div>
+    <div class="d-flex justify-content-center">
+        <input   type="text" class="ps-2" placeholder="Enter Your Name" [(ngModel)]="taskvalue"  >
+        <button (click)="isEditMood ? saveEdit() : addTask()">
+            {{ isEditMood ? 'Edit User' : 'Add User' }}
+          </button>
+    </div>
+
+    <p *ngIf="showError" class="text-danger ms-4">
+        {{ errorMessage }}
+      </p>
+      
+      
+
+
+ 
+
+    <app-task [taskObj]="tasklist" [mode]="isEditMood"  (updateEvent)="editTask($event)"  (delEvent)="deleteTask($event)"></app-task>
+  </div>

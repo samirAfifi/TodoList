@@ -1,0 +1,25 @@
+button{
+    background-color: rgb(86, 175, 219);
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+input{ 
+    border: 1px solid rgb(168, 169, 171); 
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 85%;  
+    outline: none; 
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    padding: 10px 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ .edit{
+    border-radius: 10px;
+    padding: 0px 20px;
+}
